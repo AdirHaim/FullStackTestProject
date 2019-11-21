@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38364" started-at="2019-10-17T15:03:44 IDT" finished-at="2019-10-17T15:04:22 IDT">
+    <groups>
+      <group name="DataBased">
+        <method signature="ImdbTests.test02_DB()[pri:0, instance:Tests.ImdbTests@c8e4bb0]" name="test02_DB" class="Tests.ImdbTests"/>
+      </group> <!-- DataBased -->
+      <group name="HardCoded">
+        <method signature="ImdbTests.test01_searchValue()[pri:0, instance:Tests.ImdbTests@c8e4bb0]" name="test01_searchValue" class="Tests.ImdbTests"/>
+      </group> <!-- HardCoded -->
+    </groups>
+    <test name="WebTest" duration-ms="25651" started-at="2019-10-17T15:03:44 IDT" finished-at="2019-10-17T15:04:10 IDT">
+      <class name="Tests.ImdbTests">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Tests.ImdbTests@c8e4bb0]" name="beforeClass" is-config="true" duration-ms="18151" started-at="2019-10-17T15:03:44 IDT" finished-at="2019-10-17T15:04:02 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Web]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="dobeforetest(java.lang.reflect.Method)[pri:0, instance:Tests.ImdbTests@c8e4bb0]" name="dobeforetest" is-config="true" duration-ms="2" started-at="2019-10-17T15:04:02 IDT" finished-at="2019-10-17T15:04:02 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.ImdbTests.test01_searchValue() throws java.io.IOException,javax.xml.parsers.ParserConfigurationException,org.xml.sax.SAXException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dobeforetest -->
+        <test-method status="PASS" signature="test01_searchValue()[pri:0, instance:Tests.ImdbTests@c8e4bb0]" name="test01_searchValue" duration-ms="5957" started-at="2019-10-17T15:04:02 IDT" finished-at="2019-10-17T15:04:08 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_searchValue -->
+        <test-method status="PASS" signature="doaftertest()[pri:0, instance:Tests.ImdbTests@c8e4bb0]" name="doaftertest" is-config="true" duration-ms="3" started-at="2019-10-17T15:04:08 IDT" finished-at="2019-10-17T15:04:08 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doaftertest -->
+        <test-method status="PASS" signature="dobeforetest(java.lang.reflect.Method)[pri:0, instance:Tests.ImdbTests@c8e4bb0]" name="dobeforetest" is-config="true" duration-ms="0" started-at="2019-10-17T15:04:08 IDT" finished-at="2019-10-17T15:04:08 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.ImdbTests.test02_DB() throws java.io.IOException,javax.xml.parsers.ParserConfigurationException,org.xml.sax.SAXException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dobeforetest -->
+        <test-method status="PASS" signature="test02_DB()[pri:0, instance:Tests.ImdbTests@c8e4bb0]" name="test02_DB" duration-ms="486" started-at="2019-10-17T15:04:08 IDT" finished-at="2019-10-17T15:04:09 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02_DB -->
+        <test-method status="PASS" signature="doaftertest()[pri:0, instance:Tests.ImdbTests@c8e4bb0]" name="doaftertest" is-config="true" duration-ms="0" started-at="2019-10-17T15:04:09 IDT" finished-at="2019-10-17T15:04:09 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doaftertest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Tests.ImdbTests@c8e4bb0]" name="afterClass" is-config="true" duration-ms="992" started-at="2019-10-17T15:04:09 IDT" finished-at="2019-10-17T15:04:10 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Tests.ImdbTests -->
+    </test> <!-- WebTest -->
+    <test name="ElectronTest" duration-ms="4878" started-at="2019-10-17T15:04:10 IDT" finished-at="2019-10-17T15:04:15 IDT">
+      <class name="Tests.ElectronDemo">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Tests.ElectronDemo@3bbc39f8]" name="beforeClass" is-config="true" duration-ms="3210" started-at="2019-10-17T15:04:10 IDT" finished-at="2019-10-17T15:04:13 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Electron]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="dobeforetest(java.lang.reflect.Method)[pri:0, instance:Tests.ElectronDemo@3bbc39f8]" name="dobeforetest" is-config="true" duration-ms="1" started-at="2019-10-17T15:04:13 IDT" finished-at="2019-10-17T15:04:13 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.ElectronDemo.test01_getInfo() throws java.io.IOException,javax.xml.parsers.ParserConfigurationException,org.xml.sax.SAXException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dobeforetest -->
+        <test-method status="PASS" signature="test01_getInfo()[pri:0, instance:Tests.ElectronDemo@3bbc39f8]" name="test01_getInfo" duration-ms="1054" started-at="2019-10-17T15:04:13 IDT" finished-at="2019-10-17T15:04:14 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_getInfo -->
+        <test-method status="PASS" signature="doaftertest()[pri:0, instance:Tests.ElectronDemo@3bbc39f8]" name="doaftertest" is-config="true" duration-ms="0" started-at="2019-10-17T15:04:14 IDT" finished-at="2019-10-17T15:04:14 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doaftertest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Tests.ElectronDemo@3bbc39f8]" name="afterClass" is-config="true" duration-ms="597" started-at="2019-10-17T15:04:14 IDT" finished-at="2019-10-17T15:04:15 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Tests.ElectronDemo -->
+    </test> <!-- ElectronTest -->
+    <test name="ApiTest" duration-ms="2923" started-at="2019-10-17T15:04:15 IDT" finished-at="2019-10-17T15:04:18 IDT">
+      <class name="Tests.students">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Tests.students@534df152]" name="beforeClass" is-config="true" duration-ms="741" started-at="2019-10-17T15:04:15 IDT" finished-at="2019-10-17T15:04:16 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[API]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="dobeforetest(java.lang.reflect.Method)[pri:0, instance:Tests.students@534df152]" name="dobeforetest" is-config="true" duration-ms="0" started-at="2019-10-17T15:04:16 IDT" finished-at="2019-10-17T15:04:16 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.students.test01_VeriffyStudentCreated() throws java.io.IOException,javax.xml.parsers.ParserConfigurationException,org.xml.sax.SAXException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dobeforetest -->
+        <test-method status="PASS" signature="test01_VeriffyStudentCreated()[pri:0, instance:Tests.students@534df152]" name="test01_VeriffyStudentCreated" duration-ms="2173" started-at="2019-10-17T15:04:16 IDT" finished-at="2019-10-17T15:04:18 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_VeriffyStudentCreated -->
+        <test-method status="PASS" signature="doaftertest()[pri:0, instance:Tests.students@534df152]" name="doaftertest" is-config="true" duration-ms="1" started-at="2019-10-17T15:04:18 IDT" finished-at="2019-10-17T15:04:18 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doaftertest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Tests.students@534df152]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-10-17T15:04:18 IDT" finished-at="2019-10-17T15:04:18 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Tests.students -->
+    </test> <!-- ApiTest -->
+    <test name="DesktopTest" duration-ms="4413" started-at="2019-10-17T15:04:18 IDT" finished-at="2019-10-17T15:04:22 IDT">
+      <class name="Tests.DesktopCalculator">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Tests.DesktopCalculator@40e6dfe1]" name="beforeClass" is-config="true" duration-ms="1304" started-at="2019-10-17T15:04:18 IDT" finished-at="2019-10-17T15:04:19 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Desktop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test01_veriffyPlus2Numbers()[pri:0, instance:Tests.DesktopCalculator@40e6dfe1]" name="test01_veriffyPlus2Numbers" duration-ms="2861" started-at="2019-10-17T15:04:19 IDT" finished-at="2019-10-17T15:04:22 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_veriffyPlus2Numbers -->
+        <test-method status="PASS" signature="dobeforetest(java.lang.reflect.Method)[pri:0, instance:Tests.DesktopCalculator@40e6dfe1]" name="dobeforetest" is-config="true" duration-ms="0" started-at="2019-10-17T15:04:19 IDT" finished-at="2019-10-17T15:04:19 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.DesktopCalculator.test01_veriffyPlus2Numbers() throws java.io.IOException,javax.xml.parsers.ParserConfigurationException,org.xml.sax.SAXException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dobeforetest -->
+        <test-method status="PASS" signature="doaftertest()[pri:0, instance:Tests.DesktopCalculator@40e6dfe1]" name="doaftertest" is-config="true" duration-ms="0" started-at="2019-10-17T15:04:22 IDT" finished-at="2019-10-17T15:04:22 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doaftertest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Tests.DesktopCalculator@40e6dfe1]" name="afterClass" is-config="true" duration-ms="242" started-at="2019-10-17T15:04:22 IDT" finished-at="2019-10-17T15:04:22 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Tests.DesktopCalculator -->
+    </test> <!-- DesktopTest -->
+    <test name="MobileTest" duration-ms="182" started-at="2019-10-17T15:04:22 IDT" finished-at="2019-10-17T15:04:22 IDT">
+      <class name="Tests.AppiumCalculatorAppTests">
+        <test-method status="PASS" signature="startSuite()[pri:0, instance:Tests.AppiumCalculatorAppTests@75c072cb]" name="startSuite" is-config="true" duration-ms="187" started-at="2019-10-17T15:03:44 IDT" finished-at="2019-10-17T15:03:44 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSuite -->
+        <test-method status="FAIL" signature="beforeClass(java.lang.String)[pri:0, instance:Tests.AppiumCalculatorAppTests@75c072cb]" name="beforeClass" is-config="true" duration-ms="158" started-at="2019-10-17T15:04:22 IDT" finished-at="2019-10-17T15:04:22 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Unable to create a new remote session. Please check the server log for more details. Original error: Unable to parse remote response: 
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:58:41'
+System info: host: 'DESKTOP-NVSP8IV', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: Unable to parse remote response: 
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:58:41'
+System info: host: 'DESKTOP-NVSP8IV', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: AndroidDriver
+at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:95)
+at Utilities.CommonOps.initMobile(CommonOps.java:119)
+at Utilities.CommonOps.beforeClass(CommonOps.java:203)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.reflect.InvocationTargetException
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+... 38 more
+Caused by: org.openqa.selenium.WebDriverException: Unable to parse remote response: 
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+... 43 more
+Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read: 
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:58:41'
+System info: host: 'DESKTOP-NVSP8IV', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: AndroidDriver
+at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:290)
+at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:220)
+at org.openqa.selenium.json.MapCoercer.lambda$apply$1(MapCoercer.java:64)
+at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:145)
+at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+at org.openqa.selenium.json.Json.toType(Json.java:69)
+at org.openqa.selenium.json.Json.toType(Json.java:55)
+at org.openqa.selenium.json.Json.toType(Json.java:50)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:109)
+... 43 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="dobeforetest(java.lang.reflect.Method)[pri:0, instance:Tests.AppiumCalculatorAppTests@75c072cb]" name="dobeforetest" is-config="true" duration-ms="-1571313862967" started-at="2019-10-17T15:04:22 IDT" finished-at="1970-01-01T02:00:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dobeforetest -->
+        <test-method status="SKIP" signature="test01_veriffyCalculator()[pri:0, instance:Tests.AppiumCalculatorAppTests@75c072cb]" name="test01_veriffyCalculator" duration-ms="0" started-at="2019-10-17T15:04:22 IDT" finished-at="2019-10-17T15:04:22 IDT">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Unable to create a new remote session. Please check the server log for more details. Original error: Unable to parse remote response: 
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:58:41'
+System info: host: 'DESKTOP-NVSP8IV', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: Unable to parse remote response: 
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:58:41'
+System info: host: 'DESKTOP-NVSP8IV', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: AndroidDriver
+at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:95)
+at Utilities.CommonOps.initMobile(CommonOps.java:119)
+at Utilities.CommonOps.beforeClass(CommonOps.java:203)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.reflect.InvocationTargetException
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+... 38 more
+Caused by: org.openqa.selenium.WebDriverException: Unable to parse remote response: 
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+... 43 more
+Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read: 
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:58:41'
+System info: host: 'DESKTOP-NVSP8IV', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: AndroidDriver
+at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:290)
+at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:220)
+at org.openqa.selenium.json.MapCoercer.lambda$apply$1(MapCoercer.java:64)
+at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:145)
+at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+at org.openqa.selenium.json.Json.toType(Json.java:69)
+at org.openqa.selenium.json.Json.toType(Json.java:55)
+at org.openqa.selenium.json.Json.toType(Json.java:50)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:109)
+... 43 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_veriffyCalculator -->
+        <test-method status="SKIP" signature="doaftertest()[pri:0, instance:Tests.AppiumCalculatorAppTests@75c072cb]" name="doaftertest" is-config="true" duration-ms="-1571313862973" started-at="2019-10-17T15:04:22 IDT" finished-at="1970-01-01T02:00:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doaftertest -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:Tests.AppiumCalculatorAppTests@75c072cb]" name="afterClass" is-config="true" duration-ms="-1571313862977" started-at="2019-10-17T15:04:22 IDT" finished-at="1970-01-01T02:00:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:Tests.AppiumCalculatorAppTests@75c072cb]" name="afterSuite" is-config="true" duration-ms="-1571313863046" started-at="2019-10-17T15:04:23 IDT" finished-at="1970-01-01T02:00:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Tests.AppiumCalculatorAppTests -->
+    </test> <!-- MobileTest -->
+  </suite> <!-- Suite -->
+</testng-results>

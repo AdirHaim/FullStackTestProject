@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	
+	<!-- Web / Mobile / API / Electron / Desktop / DataBase  -->
+	<AutomationType>Web</AutomationType>
+	
+	<!-- URL -->
+	<URL>https://www.imdb.com</URL>
+	
+	
+	<!-- Web -->
+	<BrowserType>Chrome</BrowserType>
+	<ChromeDriverPath>./Drivers/chromedriver.exe</ChromeDriverPath>
+	<ChromeDriverPathElectron>./Drivers/electronchromedriver.exe</ChromeDriverPathElectron>
+	<FireFoxDriverPath>./Drivers/geckodriver.exe</FireFoxDriverPath>
+	<IEDriverPath>./Drivers/IEDriverServer.exe</IEDriverPath>
+	
+	<!-- Mobile -->
+	<UDID>be51c813</UDID>
+	<App_Package>com.google.android.calculator</App_Package>
+	<App_Acrivity>com.android.calculator2.Calculator</App_Acrivity>
+	<Appium_Server_Address>http://localhost:4723/wd/hub</Appium_Server_Address>
+	
+	<!-- API -->
+	<API_URL>http://localhost:9000</API_URL>
+	<API_Resourse>/student</API_Resourse>
+	
+	<!-- Electron -->
+	<ElectronAppPath>C:/Automation/libs/ElectronAPIDemos/ElectronAPIDemos.exe</ElectronAppPath>
+	
+	<!-- Desktop -->
+	<DektopApplication>C:/Windows/System32/calc.exe</DektopApplication>
+	<DektopDriver>C:/Program Files (x86)/Windows Application Driver/WinAppDriver.exe</DektopDriver>
+	
+	<!-- Reports -->
+	<ReportFilePath>C:/Automation/libs/Reports/</ReportFilePath>
+    <ReportFileName>TestExecution</ReportFileName>
+		
+	<!-- DataBase -->
+	<DB_URL>jdbc:mysql://localhost:3306/projecttest</DB_URL>
+	<DB_User>root</DB_User>
+	<DB_Pass>abcd1234</DB_Pass>
+	
+</Configuration>

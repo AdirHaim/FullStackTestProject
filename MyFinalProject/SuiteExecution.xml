@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  
+
+    
+    
+
+    <test name="WebTest">
+			<parameter name ="platform" value="Web"></parameter>
+   	 	<classes>
+      		<class name="Tests.ImdbTests"/>
+    	</classes>  
+    </test> 
+    
+    <test name="ElectronTest">
+			<parameter name ="platform" value="Electron"></parameter>
+    	<classes>
+      		<class name="Tests.ElectronDemo"/>
+   		 </classes>  
+    </test> 
+      
+    <test name="ApiTest">
+			<parameter name ="platform" value="API"></parameter>
+    	<classes>
+      		<class name="Tests.students"/>
+   		 </classes>  
+    </test>
+    
+        <test name="DesktopTest">
+			<parameter name ="platform" value="Desktop"></parameter>
+    	<classes>
+      		<class name="Tests.DesktopCalculator"/>
+   		 </classes>  
+    </test>
+
+
+    <test name="MobileTest">
+			<parameter name ="platform" value="Mobile"></parameter>
+    	<classes>
+      		<class name="Tests.AppiumCalculatorAppTests"/>
+   		 </classes>  
+    </test>
+<!-->
+<!-->
+  
+</suite> <!-- Suite -->
